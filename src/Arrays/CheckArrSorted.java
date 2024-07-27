@@ -2,7 +2,7 @@ package Arrays;
 
 public class CheckArrSorted {
     public static void main(String[] args) {
-        int[] arr1 = {1, 2, 4, 6, };
+        int[] arr1 = {1, 2};
         boolean ans = checkArr(arr1);
         System.out.println(ans);
 
