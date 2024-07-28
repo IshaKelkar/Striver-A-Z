@@ -18,8 +18,9 @@ public class RotateArrayByD {
 
         reverse(arr, 0, n - 1); // Reverse the whole array
         reverse(arr, 0, k ); // Reverse the first k elements
-        reverse(arr, k + 1, n - 1); // Reverse the remaining elements
+        reverse(arr, k+1, n - 1); // Reverse the remaining elements
     }
+
     public static void reverse(int[] arr, int start, int end) {
         while (start < end) {
             int temp = arr[start];
