@@ -3,12 +3,12 @@ package Arrays;
 // Remove Duplicates from the Sorted Array
 public class RemoveDuplicates {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 2, 3, 3, 4, 4};
+        int[] arr = {1, 1, 2, 3};
         int newLength = removeElements(arr);
 
         // Print the entire array showing unique elements at the start and duplicates at the end
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
     public static int removeElements(int[] arr) {
